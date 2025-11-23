@@ -4,16 +4,13 @@
                         }
                         
                         header {
-                            padding: 17px 18px;
+                            padding: 17px 18px 13px 24px;
                             background-color: white;
                             padding: 17px;
-                            border-radius: 17px;
                             margin: 7% 290px;
                         }
                         
                         .main img {
-                            width: 800px;
-                            padding: 18px 17px;
                             color: white;
                             width: 350px;
                         }
@@ -23,12 +20,16 @@
                             background-color: gold;
                         }
                         
-                        .svg {}
+                        .svg {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                        }
                         
                         .svg img {
                             width: 70px;
                         }
                         
                         .svg b {
-                            font-size: 25px;
+                            font-size: 40px;
                         }
